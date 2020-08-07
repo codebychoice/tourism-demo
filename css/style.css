@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+ 
+a{
+    color: #333;
+    text-decoration: none;
+}
+
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a{
+
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar li a:hover{
+    background-color: black;
+    color: #f7c08a;
+}
+
+#showcase{
+    background: url('../img/manali2.jpg') no-repeat center center/cover; 
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1{
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p{
+    padding-bottom: 20px;
+    line-height: 3em;
+    font-size: 18px;
+}
+
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    background: navy;
+    color: wheat;
+    border: none;
+    padding: 5px 27px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    background: blue;
+    color: bisque;
+}
+
+.text-primary{
+    color: gold;
+}
+
+.text-secondary{
+    color: maroon;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+
+}
+.bg-primary{
+    background: lightblue;
+    color: #333;
+}
+
+div.polaroid {
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+div.contain {
+    text-align: center;
+    padding: 10px 20px;
+}
+.polaroid{
+    float: left;
+    margin: 20px 30px;
+    text-align: center;
+}
+.photo{
+    text-align: center;
+    background-color: lightsteelblue;
+    color: black;
+    margin-top: 10px;
+    padding-top: 5px;
+   margin-left: 25%;
+   margin-right: 25%;
+   border-radius: 40px;
+   
+}
+contact
+
+#contact-form{
+    margin: 20px 0;
+
+}
+
+#contact-form .form-group{
+    margin: 10px;
+}
+#contact-form .form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form .form-group input,
+#contact-form .form-group textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+    border-radius: 5px;
+}
+
+#contact-form .form-group textarea{
+    height: 200px;
+}
+#contact-form .form-group input:focus,
+#contact-form .form-group textarea:focus{
+    background: none;
+    border-color: lightblue;
+} 
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0px 20px;
+    
+}
+#main-footer{
+    text-align: center;
+    padding: 20px;
+    color: cornsilk;
+}
+.clr{
+    clear: both;
+}
+
+#home-info{
+    height: 400px;
+    background: lightsteelblue;
+    color: #333;
+}
+
+#home-info .info-img{
+    background: url('../img/photo.jpeg');
+    min-height: 100%;
+    width: 50%;
+    float: left;
+}
+
+#home-info .info-content{
+    width: 50%;
+    float: right;
+    min-height: 100%;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+About
+
+#about-info{
+    padding: 30px 10px;
+}
+
+#about-info .info-right{
+    width: 50%;
+    float: right;
+    min-height: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#about-info .info-left{
+    width: 50%;
+    float: left;
+    min-height: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.l-size{
+    font-size: 30px;
+}
+#about-info .info-right img{
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin: auto;
+    display: block;
+
+}
+.l-heading{
+    font-size: 40px;
+}
+
+#feedback{
+    background: url('../img/mona.jpg') no-repeat center center/cover;
+    height: 500px;
+    text-align: center;
+    padding: 50px;
+    color: lightgoldenrodyellow;
+
+}
+#feedback .deals{
+    max-width: 380px;
+    max-height: 200px;
+    border-radius: 15px;
+    background-color: lightsalmon;
+    opacity: 0.5;
+    color: black;
+    width: 50%;
+    
+
+}
+
+#feedback .deal{
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 15px;
+    background-color: lightsalmon;
+    opacity: 0.5;
+    color: black;
+    margin-top: 20px;
+    width: 30%;
+    
+}
+
+#feedback .last{
+    float: right;
+    background-color: lightsalmon;
+    opacity: 0.5;
+    color: black;
+    border-radius: 10px;
+    max-width: 700px;
+    width: 70%;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+.box{
+    float: left;
+    width: 33.2%;
+    padding:50px;
+    text-align: center;
+    margin-top: 3px;
+}
+

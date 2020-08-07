@@ -1,0 +1,117 @@
+#navbar h1{
+    float: none;
+    text-align: center;
+}
+#navbar ul, #navbar ul li{
+    float: none;
+}
+
+#navbar li a{
+    padding: 10px;
+    border: 1px dotted #444;
+   }
+
+   #showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+} 
+
+#showcase .showcase-content p{
+    padding-bottom: 10px;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+div.polaroid {
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.polaroid{
+    float: none;
+    width: 100%;
+    margin: 20px 30px;
+    text-align: center;
+}
+
+#home-info .info-img{
+    float: none;
+    display: none;
+}
+#home-info .info-content{
+    width: 100%;
+    float: none;
+    min-height: 100%;
+    padding: 30px 20px;
+    overflow: hidden;
+
+}
+#home-info{
+    height: 470px;
+}
+
+.box{
+    float: none;
+    width: 100%;
+    padding:50px;
+    text-align: center;
+    margin-top: 3px;
+}
+/* about */
+#about-info .info-right{
+    width: 100%;
+    float: none;
+    min-height: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#about-info .info-left{
+    width: 100%;
+    float: none;
+    min-height: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#about-info .info-right img{
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin: auto;
+    display: block;
+}
+#feedback{
+    background: url('../img/mona.jpg') no-repeat center center/cover;
+    height: 550px;
+    text-align: center;
+    padding: 50px;
+    color: lightgoldenrodyellow;
+}
+
+#feedback .deals{
+    width: 50%;
+    font-size: 12px;
+    max-width: 150px;
+    max-height: 200px;
+    text-align: center;
+    margin-left: 5px;
+    
+}
+
+#feedback .deal{
+    width: 50%;
+    font-size: 12px;
+    max-width: 150px;
+    max-height: 200px;
+    text-align: center;
+}
+
+#feedback .last{
+    width: 50%;
+    float: right;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
