@@ -33,7 +33,7 @@ div.polaroid {
 .polaroid{
     float: none;
     width: 100%;
-    margin: 20px 30px;
+    margin: 20px auto;
     text-align: center;
 }
 
@@ -48,6 +48,9 @@ div.polaroid {
     padding: 30px 20px;
     overflow: hidden;
 
+}
+#home-info .info-content .btn{
+    display: none;
 }
 #home-info{
     height: 470px;
@@ -90,16 +93,6 @@ div.polaroid {
     color: lightgoldenrodyellow;
 }
 
-#feedback .deals{
-    width: 50%;
-    font-size: 12px;
-    max-width: 150px;
-    max-height: 200px;
-    text-align: center;
-    margin-left: 5px;
-    
-}
-
 #feedback .deal{
     width: 50%;
     font-size: 12px;
@@ -109,9 +102,12 @@ div.polaroid {
 }
 
 #feedback .last{
-    width: 50%;
+    width: 90%;
     float: right;
     padding-top: 10px;
     margin-left: 20px;
 }
 
+#feedback .deals{
+    display: none;
+}
